@@ -8641,7 +8641,9 @@ h1, h2, h3, h4, h5,
     list-style: none;
     margin-bottom: 10px; }
     .ftco-about ul.about-info li span {
-      width: calc(100% - 130px); }
+      width: calc(100% - 130px);
+      word-break: break-word;
+    }
       .ftco-about ul.about-info li span:first-child {
         font-weight: 600;
         color: #000000;
@@ -9056,7 +9058,6 @@ textarea.form-control {
 
 .ftco-section {
   padding: 7em 0;
-  margin-top: 7em;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
@@ -9363,7 +9364,9 @@ textarea.form-control {
       border: 1px solid transparent; }
 
 .contact-section .contact-info p a {
-  color: #1a1a1a; }
+  color: #1a1a1a;
+  word-break: break-word;
+}
 
 .contact-section .box {
   width: 100%;
@@ -9667,3 +9670,10 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .exp-sec {
+      padding: 7em 0 0 0 !important;
+  }
+  .stat-sec {
+    margin: 7em 0 !important;
+}
